@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Chilanka, sans-serif;
+  font-size: 20px;
+  color: rgb(14, 8, 8);
+  padding: 5px;
+  line-height: 30px;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  margin-left: 10px;
+  color: rgba(2, 121, 121, 0.582);
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: Dyuthi, sans-serif;
+  color: rgb(5, 5, 5);
+  padding: 25px;
+}
+
+nav {
+  top: 0;
+  position: fixed;
+  background-color: salmon;
+  z-index: 1;
+  border-style: groove;
+  padding: 15px 200px 10px 400px;
+}
+
+img {
+  margin-top: 200px;
+  height: 400px;
+  width: 400px;
+  border-radius: 400%;
+}
+
+.lessons {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 400px;
+  display: inline-block;
+}
+
+.learned {
+  width: 1300px;
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 400px;
+}
+
+#rodape {
+  text-align: center;
+}
+
+button {
+  border-style: groove;
+}
+
+.table {
+  width: 1000px;
+  border-style: groove;
+  color: rgb(112, 47, 1);
+  font-style: italic;
+}
